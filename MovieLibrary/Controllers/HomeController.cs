@@ -15,7 +15,7 @@ namespace MovieLibrary.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page.(GIT)";
             return View();
         }
         public ActionResult Contact()
