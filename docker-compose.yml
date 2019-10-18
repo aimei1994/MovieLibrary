@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  movielibrary:
+    image: ${DOCKER_REGISTRY-}movielibrary
+    build:
+      context: .\MovieLibrary
+      dockerfile: Dockerfile
